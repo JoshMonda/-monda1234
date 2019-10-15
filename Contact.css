@@ -1,0 +1,18 @@
+
+body
+{
+	background-image: url(img/bike-wallpaper-download.jpg);
+}
+p
+{
+	color: maroon;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 0px 8px 8px;
+}
+a
+{
+	text-align: center;
+	text-decoration: none;
+	text-underline-position: center;
+}

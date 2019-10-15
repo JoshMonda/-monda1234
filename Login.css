@@ -1,0 +1,120 @@
+*
+{
+	text-decoration: none;
+}
+body
+{
+	background-image: url(img/HD-Technology-Wallpaper-7.jpg);
+	background-size: cover;
+}
+form
+{
+	
+	position:absolute;
+	padding-bottom:0px;
+	margin:0px;
+}
+legend
+{
+	color:yellow;
+	font-family: Times New Romans;
+	text-transform: uppercase;
+	font-weight: 900%;
+		
+}
+fieldset
+{
+	background-image: url(img/HD-Technology-Wallpaper-7.jpg);
+	margin: 0 auto;
+	border-radius: 20px;
+	border-top-right-radius: 30px;  
+	border-top-left-radius: 30px;
+	border:solid:margin;
+
+}
+label
+{
+	color: maroon;
+}
+.New
+{
+		background-color:grey;
+		color: maroon;
+		width: 30px;
+		height: 30px;
+		text-align: left;
+}
+
+.main
+{
+	font-family:Times New Romans;
+	font-weight: 300;
+	text-align: center;
+	text-shadow: 2px 2px 8px orange;
+    display: block;
+	font-size: 16px;
+	color: white;
+    line-height:10px;
+    border: 10px solid purple;
+    margin: 200px;
+    padding: 200px;   
+    position: absolute; 
+    text-decoration: none;
+    position: absolute;
+    padding-top: 60px;
+}
+.Box
+{
+	border-radius: 20px;
+}
+.box form
+{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	transform: translate(-50%,-50%);
+}
+.picture
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	top: 50px;
+	left:calc(50%-50px);
+}
+.row
+{
+	margin-top: 30px;
+}
+p
+{
+	line-height: 30px;
+	color: white;
+  
+
+}
+h1
+{
+	border-radius: 50px;
+}
+.Join
+{
+	border-radius: 20px;
+}
+.main legend img
+{
+	width: 100px;
+	height: 100px;
+}
+.Lgin
+{
+	border-radius: 20px;
+}
+.sub
+{
+	border-radius: 20px;
+}
+.user
+{
+	background-color: blue;
+}

@@ -1,0 +1,63 @@
+*
+{
+	text-decoration: none;
+}
+body
+{
+	background-image: url(download);
+}
+
+form
+{
+	
+	color: white;
+	font-size: 20px;
+	font-family: Times New Romans;
+	position:absolute;
+	padding: 30px;
+	margin: 5px auto;
+    width: 40px;
+    border: 1px: solid pink;
+	
+
+}
+legend
+{
+	color:pink;
+	font-family: Times New Romans;
+	
+	
+	
+}
+fieldset
+{
+ background-image: url(img/HD-Technology-Wallpaper-7.jpgs);
+ border-top-left-radius: 30px;
+ border-top-right-radius: 30px;
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+}
+label
+{
+	color: maroon;
+	padding: 1px;
+	margin: 1px;
+}
+form 1
+{
+	background-color: grey;
+}
+td
+{
+	color: blue;
+}
+button
+{
+	color: yellow;
+}
+#box
+{
+	background-color: maroon;
+	width:450px;
+	height: 500px;
+}

@@ -1,0 +1,22 @@
+ *
+{
+	text-decoration: none;
+}
+.footer-sm
+{
+	
+	float: right;
+	background-color: black;
+	border:10px solid margin;
+	line-height: 20px;
+} 
+.footer-sm img
+{
+	width: 600px;
+	height: 500px;
+	float: left;
+	line-height: 20px;
+	margin: bottom 10px;
+	background-color: black;
+	
+}

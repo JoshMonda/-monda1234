@@ -1,0 +1,365 @@
+
+*
+{
+	text-decoration: none;
+}
+body
+{ 
+	background-image: url(img/HD-Technology-Wallpaper-7.jpg);
+}
+header
+{
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	transition: background 1s;
+	border-bottom:orange 3px solid;
+}
+.header-brand
+{
+	font-family:Cataraman;
+	font-size: 24px; 
+	font-weight: 900;
+	color: orange;
+	display: block;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0; 
+	text-shadow: 2px 2px 8px white;
+}
+ header nav ul
+ {
+margin: 0 auto;
+display: block;
+width:fit-content;  
+text-transform: uppercase;
+
+ }
+ header nav ul li
+ {
+
+float: left;
+list-style: none;
+padding: 0 16px;
+ }
+ header nav ul li a
+ {
+ 	font-family:Cataraman;
+	font-size: 16px;
+	color: purple;
+	text-transform: uppercase;
+
+ }
+  
+ header nav ul li a:hover
+ {
+border: solid:black;
+ }
+
+ a.header-Cases
+ {
+ 	display: none;
+ }
+ a.active
+ {
+ 	background-color: white;
+ }
+ a.hover
+ {
+ 	background-color: white;
+ 	color: red;
+ 	text-decoration: underline;
+ 	font-weight: bold;
+ }
+ @media only screen and (min-width:1000px)
+ {
+ 	a.header-brand
+{
+	margin:31px 0;
+	text-align:left;
+	line-height: 38px;
+	padding: 0px 20px 0 40px; 
+	border-right: 3px solid black;
+	float: left;
+}
+ header nav ul
+ {
+margin: 20px 0px 0px 20px ;
+float: left;
+
+ }
+ header nav ul li
+ {
+ 	background-color: black;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	margin-right: 2px;
+ }
+ header nav ul li a
+ {
+ 	text-decoration: none;
+ 	color: white;
+ 	display: block;
+	line-height: 60px;
+ }
+ header nav ul li a:hover
+ {
+ 	background-color:purple;
+ }
+ header nav ul li ul li
+ {
+ 	display:none;
+ }
+ header nav ul li:hover ul li
+ {
+ 	display:inline-block;
+ }
+ a.header-Cases
+ {
+ 	display: block;
+ 	font-family:Cataraman;
+	font-size: 16px;
+	color: black;
+	text-transform: uppercase;
+    line-height: 38px;
+    border: 1px solid black;
+    float:right;
+    margin-right: 40px;
+    padding: 0 20px;
+    margin-top: 30px;
+ }
+ }
+ /*main*/
+ .Website-banner
+ {
+ 	width: 100%;
+ 	height:100vh;
+ 	background-image: url('img/1561705012098.jpg');
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover; 
+ 	display: table;
+ }
+ .vertical-center 
+ {
+display: table-cell;
+vertical-align:middle;
+margin-top: 100px;
+height: 100%;
+width: 100%;
+ }
+ .announcement
+ {
+ 	width: 100%;
+ 	height: 
+ }
+.Website-banner h2
+{
+	font-family:Times New Roman;
+	font -font-weight: 700;
+	font-size: 50px;
+    line-height: 80px;
+	color: maroon;
+	text-align: center;
+	text-shadow: 2px 2px 8px pink;
+	margin-right: 20 0px;
+	margin-top: 50  0px;
+
+}
+.Website-banner h3
+{
+	font-family:Cormoramt Garamond;
+	font -font-weight: 100;
+	font-size: 28px;
+	font-style: italic;
+	line-height:40px; 
+	color:orange;
+	text-align: center;
+	text-shadow: 2px 2px 8px;
+	background-color: black;
+
+}
+.Website-links div
+{
+	margin:10px 10px 0 ;
+	height: 100px;
+	background-color: #f2f2f2;
+}
+
+.Website-links div h3
+{
+	
+    font-family:Cataraman;
+	font-weight: 900;
+	font-size: 28px;
+	line-height:100px; 
+	color: maroon;
+	text-align: center;
+	text-transform: uppercase;
+}
+.Website-links h4 p
+{
+	color: red;
+	font-size: 20px;
+}
+ @media only screen and (min-width:1000px){
+ .wrapper
+ 	{
+ 		width: 1000px;
+ 		margin: 0 auto;
+ 	}
+.Website-banner
+ {
+ 	
+ 
+ 	height:450px;
+ 	 }
+  
+ .Website-banner h1
+{
+	display:inline-block;
+	width: 560px;
+	margin: 0 auto; 
+}
+.Website-links 
+{
+overflow: hidden;
+margin-top: 20px;	
+}
+.Website-links div
+{
+	margin:10px 10px 0;
+	height: 100px; 
+	background-color: #f2f2f2;
+	float:left;
+}
+.Website-links h3
+{
+	color: white;
+	
+
+}
+.Websit-boxlink-square
+ {
+  width:150px !important ;
+
+ 
+ }
+ .Websit-boxlink-rectangle 
+ {
+  width:300px !important ;
+
+ 
+ }
+ .Website-links div h3
+{
+	
+	line-height:50px; 
+	
+}
+}
+ 
+/*FOOTER*/
+footer
+{
+	width: calc(100%-80px);
+	padding: 60px 60px;
+	background-color: #111;
+	margin-top: 20px;
+	overflow: hidden;
+}
+footer ul
+{
+   width: fit-content;
+   height:fit-content;
+   float: left;
+   padding:left:20px;
+   padding-bottom: 50px;
+
+}
+footer ul li
+{
+  display:block;
+  list-style: none;
+
+
+} 
+footer ul li a
+{
+  font-family:Cataraman;
+  font-size: 30px;
+  color: white;
+  line-height: 60px;
+  height: 40px;
+  padding-top: 50px;
+ 
+
+}
+.footer-links-Cases
+{
+	display:block;  
+	padding-top: 20px;
+}
+.footer-sm
+{
+	width: 50px;
+	float: right;
+} 
+.footer-sm img
+{
+	width: 100%;
+	margin: bottom 10px;
+}
+ @media only screen and (min-width:1000px)
+    {
+.footer-links-Cases
+{
+	display:block;
+
+}
+footer ul
+{
+   padding-right:0px;
+   padding-top: 20px;
+   text-transform: uppercase;
+}
+footer ul li p
+{
+  font-family:Cataraman;
+  font-size: 24px;
+  color: white;
+  line-height: 40px;
+  height: 40px;
+  text-transform: uppercase;
+}
+footer ul li a
+{
+	padding-top: 20px;
+}
+.Container h3
+{
+	margin-top: 20px;
+	margin-left:30px;
+	float: left;
+	
+}
+.Container form
+{
+	margin-top: 20px;
+	margin-left:30px;
+	float: right;
+	
+}
+.Website-banner form
+{
+	float: right;
+}
+.Box
+ {
+display:table-cell;
+vertical-align:right;
+margin-top: 50px;
+ }
+}
+
